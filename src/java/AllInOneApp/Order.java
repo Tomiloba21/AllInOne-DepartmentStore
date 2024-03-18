@@ -4,10 +4,43 @@
  */
 package AllInOneApp;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author admin
  */
 public class Order {
+    
+    
+    private String orderID;
+    private Customer customer;
+    private Product product;
+
+    public String getOrderID() {
+        return orderID;
+    }
+
+    public void setOrderID(String orderID) {
+        this.orderID = orderID;
+    }
+
+    public Customer getCustomer() {
+        return customer;
+    }
+
+    public void setCustomer(Customer customer) {
+        this.customer = customer;
+    }
+
+    public Product getProduct() {
+        return product;
+    }
+
+    public void setProduct(Product product) {
+        this.product = product;
+    }
+    
+    
     
 }
