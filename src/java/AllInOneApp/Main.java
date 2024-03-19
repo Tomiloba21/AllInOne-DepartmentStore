@@ -16,7 +16,7 @@ public class Main {
         ApplicationContext context = new ClassPathXmlApplicationContext("AllInOneApp/SpringXmlConfig.xml");
         
         Order ord = (Order) context.getBean("order");
-        System.out.println(        ord.toString());
+        System.out.println(ord.toString());
     }
     
 }
